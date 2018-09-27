@@ -1,18 +1,17 @@
 <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
   <a class="navbar-brand">
-    <img class="logo" src="../../../../images/logo.png" alt="">
+    <img class="logo" src="https://raw.githubusercontent.com/DiLeyRa/red-social-angular/master/images/logo.png" alt="">
   </a>
   <form class="form-inline">
     <a class="nav-item nav-link font-weight-bold" href="#" routerLink="/login" *ngIf="!isLogin">Login</a>
     <a class="nav-item nav-link font-weight-bold" href="#" routerLink="/register" *ngIf="!isLogin">Registrarse</a>
-    <a class="nav-item nav-link font-weight-bold fa fa-home" href="#" *ngIf="isLogin" (click)="onClickLogout()">Salir</a>
-    <a class="nav-item nav-link font-weight-bold" href="#">
-      {{ nameUser }}
-    </a>
     <a class="nav-item nav-link font-weight-bold" *ngIf="isLogin">
       <img src="{{ photo }}" class="rounded-circle">
     </a>
-
+    <a class="nav-item nav-link font-weight-bold" href="#">
+      {{ nameUser }}
+    </a>
+    <a class="nav-item nav-link font-weight-bold fa fa-home" href="#" *ngIf="isLogin" (click)="onClickLogout()">Salir</a>
 
   </form>
 </nav>
