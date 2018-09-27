@@ -2,3 +2,7 @@ img.rounded-circle{
     width: 45px;
     height: 45px;
 }
+.logo{
+    width: 128px;
+    border-radius: 7px;
+}
