@@ -23,12 +23,12 @@ export class NavbarComponent implements OnInit {
         this.isLogin = true;
         this.emailUser = auth.email;
         if (!auth.displayName) {
-          this.nameUser = 'Bienvenido';
+          this.nameUser = 'Bienvenid@';
         }else{
           this.nameUser = auth.displayName;
         }
         if(!auth.photoURL){
-          this.photo='';
+          this.photo='https://raw.githubusercontent.com/DiLeyRa/red-social-angular/master/src/images/perfil.png';
         }else{
           this.photo = auth.photoURL;
         }
