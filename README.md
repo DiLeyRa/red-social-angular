@@ -1,29 +1,30 @@
-# RedSocial
+# Sharing-Code
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.2.
+Se trata de una red social para programadores que permite compartir trabajos y experiencias con otros compañeros de profesión.
 
-## Development server
+## Diagrama de Flujo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![Diagrama](./src/images/diagrama.PNG)
 
-## Code scaffolding
+#### Prototipo de alta fidelidad.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Para nuestro prototipo utilizamos mockflow.
 
-## Build
+![registro](../images/captura.PNG)
+* Testear el prototipo con usuarios.
+* Asegurarte de que la implementación en código siga los lineamientos del
+  diseño.
+* Hacer sesiones de testing con el producto en HTML.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+#### Prototipo de alta fidelidad.
 
-## Running unit tests
+Para nuestro prototipo utilizamos mockflow e invision.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+t[Liga](https://projects.invisionapp.com/d/main#/console/14995962/311812131/preview)
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# red-social-angular
-# red-social-angular
+![captura](./src/images/captura.PNG)
+![google](./src/images/google.PNG)
+![muro](./src/images/muro.PNG)
+![contactos](./src/images/contactos.PNG)
+![chat](./src/images/chat.PNG)
