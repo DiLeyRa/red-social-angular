@@ -18,13 +18,20 @@ Para nuestro prototipo utilizamos mockflow.
 
 #### Prototipo de alta fidelidad.
 
-Para nuestro prototipo utilizamos mockflow e invision.
+A continuación se muestra el prototipo de alta fidelidad para nuestro proyecto:
 
-t[Liga](https://projects.invisionapp.com/d/main#/console/14995962/311812131/preview)
-
+Vista del login:
 
 ![captura](./src/images/captura.PNG)
+
+Vista del login con Google:
+
 ![google](./src/images/google.PNG)
+
+Vista del muro, donde el usuario podra realizar publicaciones, editar, eliminar y dar like:
+
 ![muro](./src/images/muro.PNG)
-![contactos](./src/images/contactos.PNG)
+
+Vista donde el usuario podra comentar publicaciones de otros usuarios: 
+
 ![chat](./src/images/chat.PNG)
