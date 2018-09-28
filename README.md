@@ -6,15 +6,6 @@ Se trata de una red social para programadores que permite compartir trabajos y e
 
 ![Diagrama](./src/images/diagrama.PNG)
 
-#### Prototipo de alta fidelidad.
-
-Para nuestro prototipo utilizamos mockflow.
-
-![registro](../images/captura.PNG)
-* Testear el prototipo con usuarios.
-* Asegurarte de que la implementación en código siga los lineamientos del
-  diseño.
-* Hacer sesiones de testing con el producto en HTML.
 
 #### Prototipo de alta fidelidad.
 
