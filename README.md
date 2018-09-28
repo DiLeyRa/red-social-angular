@@ -7,7 +7,7 @@ Se trata de una red social para programadores que permite compartir trabajos y e
 ![Diagrama](./src/images/diagrama.PNG)
 
 
-#### Prototipo de alta fidelidad.
+## Prototipo de alta fidelidad.
 
 A continuación se muestra el prototipo de alta fidelidad para nuestro proyecto:
 
