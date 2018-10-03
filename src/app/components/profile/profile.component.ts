@@ -13,6 +13,9 @@ export class ProfileComponent implements OnInit {
   item:any = {
     mesage:''
   }
+  editarItem:any={
+    mesage:''
+  }
 
 
   constructor(private conexion:ConexionService,
@@ -30,6 +33,18 @@ export class ProfileComponent implements OnInit {
   agregar(){
     this.servicio.addPublications(this.item);
     this.item.mesage = '';
+  }
+
+  eliminar(item){
+    this.conexion.delatePublications(item);
+  }
+
+  editar(item){
+    this.editarItem = item;
+  }
+
+  agregarItemEditado(){
+    this.conexion.editPublications(this.editarItem);
   }
 }
 
