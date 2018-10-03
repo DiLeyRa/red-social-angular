@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { ConexionService } from '../../servicios/conexion.service';
+import { AuthService } from '../../servicios/auth.service';
 
 @Component({
   selector: 'app-profile',
@@ -8,6 +9,10 @@ import { ConexionService } from '../../servicios/conexion.service';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
+
+  public isLogin: boolean;
+  public nameUser: string;
+  public photo: string;
 
   items:any;
   item:any = {
@@ -19,7 +24,8 @@ export class ProfileComponent implements OnInit {
 
 
   constructor(private conexion:ConexionService,
-    private servicio:ConexionService
+    private servicio:ConexionService,
+    public authService: AuthService
   ){
     this.conexion.publications().subscribe(item => {
       this.items = item;
@@ -28,6 +34,23 @@ export class ProfileComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.authService.getAuth().subscribe(auth => {
+      if (auth) {
+        this.isLogin = true;
+        if (!auth.displayName) {
+          this.nameUser = 'Bienvenid@';
+        }else{
+          this.nameUser = auth.displayName;
+        }
+        if(!auth.photoURL){
+          this.photo='https://raw.githubusercontent.com/DiLeyRa/red-social-angular/master/src/images/perfil.png';
+        }else{
+          this.photo = auth.photoURL;
+        }
+      } else {
+        this.isLogin = false;
+      }
+    });
   }
 
   agregar(){

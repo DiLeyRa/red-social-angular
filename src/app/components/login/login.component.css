@@ -1,12 +1,16 @@
 .btn-facebook{
     background: #3b5998;
     color:#fff;
-    width: 10%;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .btn-google{
     background: #dd4b39;
     color:#fff;
-    width: 10%;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .btn-twitter{
     background: #55acee;

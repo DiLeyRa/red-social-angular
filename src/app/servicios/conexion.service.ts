@@ -30,6 +30,8 @@ export class ConexionService {
 
   addPublications(item: Item) {
     this.itemsCollection.add(item);
+    //date:firebase.firestore.FieldValue.serverTimestamp(),
+    
   }
 
   delatePublications(item){
