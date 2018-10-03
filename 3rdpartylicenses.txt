@@ -280,6 +280,18 @@ Apache-2.0
 Apache-2.0
 Apache-2.0
 
+@firebase/firestore@0.8.1
+Apache-2.0
+Apache-2.0
+
+@firebase/logger@0.1.1
+Apache-2.0
+Apache-2.0
+
+@firebase/webchannel-wrapper@0.2.9
+Apache-2.0
+Apache-2.0
+
 angularfire2@5.0.2
 MIT
 MIT
