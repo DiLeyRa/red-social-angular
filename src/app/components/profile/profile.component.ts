@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+import { ConexionService } from '../../servicios/conexion.service';
 
 @Component({
   selector: 'app-profile',
@@ -8,9 +9,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfileComponent implements OnInit {
 
-  constructor() { }
+  items:any;
+  item:any = {
+    mesage:''
+  }
+
+
+  constructor(private conexion:ConexionService,
+    private servicio:ConexionService
+  ){
+    this.conexion.publications().subscribe(item => {
+      this.items = item;
+      console.log(this.items);
+    })
+  }
 
   ngOnInit() {
   }
 
+  agregar(){
+    this.servicio.addPublications(this.item);
+    this.item.mesage = '';
+  }
 }
+

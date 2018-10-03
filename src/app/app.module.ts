@@ -7,14 +7,17 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { RegisterComponent } from './components/register/register.component';
 import { LoginComponent } from './components/login/login.component';
-
 import { AuthService } from './servicios/auth.service';
+import { ProfileComponent } from './components/profile/profile.component';
+import { AuthGuard } from './guards/auth.guard';
+//importamos para la conexion con firebase
 import { AngularFireModule } from '@angular/fire';
 import{ AngularFireAuthModule } from '@angular/fire/auth';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { AngularFireStorageModule } from '@angular/fire/storage';
 import { environment } from '../environments/environment';
-import { ProfileComponent } from './components/profile/profile.component';
+import { ConexionService } from './servicios/conexion.service';
 
-import { AuthGuard } from './guards/auth.guard';
 
 
 @NgModule({
@@ -30,9 +33,11 @@ import { AuthGuard } from './guards/auth.guard';
     AppRoutingModule,
     FormsModule,
     AngularFireAuthModule,
-    AngularFireModule.initializeApp(environment.firebaseConfig)
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFirestoreModule,
+    AngularFireStorageModule
   ],
-  providers: [AuthService, AuthGuard],
+  providers: [AuthService, AuthGuard, ConexionService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

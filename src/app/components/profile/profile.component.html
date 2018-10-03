@@ -1,12 +1,16 @@
 <div class="container">
-    <div class="jumbotron">
-      <h1 class="font-weight-bold">Sharing-Code</h1> 
-      <p class="font-italic">Bienvenido a la nueva red social para desarrolladores..</p> 
-    </div>
-    <!-- <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Enviar un mensaje" aria-label="Recipient's username" aria-describedby="button-addon2">
-        <div class="input-group-append">
-          <button class="btn btn-outline-secondary" type="button" id="button-addon2">Enviar</button>
-        </div>
-      </div>  -->
+  <div class="jumbotron">
+    <h1 class="font-weight-bold">Sharing-Code</h1>
+    <p class="font-italic">Bienvenido a la nueva red social para desarrolladores..</p>
   </div>
+</div>
+
+<form (ngSubmit)="agregar()">
+  <input type="text" placeholder="Enviar un mensaje" name="mesage" class="form-control" [(ngModel)]="item.mesage">
+
+  <button class="btn btn-light mt-3" type="submit">Enviar</button>
+</form>
+
+<div class="alert alert-danger" role="alert" *ngFor="let item of items">
+  {{item.mesage}} - {{item.id}}
+</div>
