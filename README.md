@@ -10,10 +10,10 @@ Se trata de una red social para programadores que permite compartir trabajos y e
 ## Instalación
 
 Para poder interactuar con la red social Sharing-Code es necesario:
-Acceder a la siguiente liga: [link](https://dileyra.github.io/red-social-angular/register)
-Abrir la terminal e instalar npm: npm install
-Instalar Angular CLI: npm install -g @angular/cli
-Registrarte y listo ahora puedes compartir tú conocimiento en cuanto a código con toda una red de programadores…EXCELENTE!!!...
+* Acceder a la siguiente liga: [link](https://dileyra.github.io/red-social-angular/register)
+* Abrir la terminal e instalar npm: npm install
+* Instalar Angular CLI: npm install -g @angular/cli
+* Registrarte y listo ahora puedes compartir tú conocimiento en cuanto a código con toda una red de programadores…EXCELENTE!!!...
 
 ## Preámbulo
 
@@ -28,8 +28,6 @@ sobre qué tipo de red social quiere, sólo nos dice que creemos la mejor que
 podamos, y que luego la convenzamos de lanzarla al mercado. Nos da ciertos temas
 en los que le gustaría invertir:
 
-
-__USER FLOW__
 
 ![Diagrama](./src/images/diagrama.PNG)
 
