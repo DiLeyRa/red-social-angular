@@ -28,77 +28,6 @@ sobre qué tipo de red social quiere, sólo nos dice que creemos la mejor que
 podamos, y que luego la convenzamos de lanzarla al mercado. Nos da ciertos temas
 en los que le gustaría invertir:
 
-
-![Diagrama](./src/images/diagrama.PNG)
-
-### PRINCIPALES REDES SOCIALES
-
-### NotasWeb
-Se trata de una de las comunidades más grandes para programadores en habla hispana. Aquí podrás aprender y compartir información sobre PHP, CSS/Diseño, JavaScript, AJAX, SQL, SEO y mucho más. En Notas Web encontrarás tutoriales y artículos de cualquier ámbito del desarrollo web.
-
-
-
-### Desarrollo Web
-Esta comunidad para desarrolladores web, también en habla hispana, ofrece artículos muy interesantes sobre la actualidad y últimas novedades en programación web. Encontrarás tutoriales y foros de debate donde realizar las consultas que necesites, seguro que tendrás respuesta, aquí la comunidad de programadores web es muy activa. Además, como línea de negocio paralela, ofrecen cursos online de diseño y programación web muy interesantes a través de su escuela IT.
-
-Desarrollo Web, comunidad para desarrolladores web
-
-### Domestika
-Red social española dedicada en exclusiva a creativos, programadores, diseñadores gráficos y diseñadores web. Puedes crear tu propio perfil y compartir tus trabajos, descargar recursos, realizar preguntas o responderlas en sus foros de debate y buscar y ofrecer trabajo.
-
-
-
-### Bisquits
-Biquits es una red social exclusiva para programadores a la que sólo puedes acceder a través de una prueba de programación previa para que que la plataforma te envíe su invitación. Hay que tener cierto nivel de programación y desarrollo web, aunque no demasiado, y una vez dentro podrás buscar, compartir y guardar pedacitos de código para tus webs. Ideal para conocer nuevos trucos de otros programadores web como tú.
-
-Bisquits, red social exclusiva para programadores
-
-### CoderWall
-Se trata de una red social para programadores que permite compartir trabajos y experiencias con otros compañeros de profesión. Puedes enlazar tu perfil de CoderWall con otras comunidades donde exponer tu porfolio de websites anteriores como GitHub, BitBucket o Dribble. Esta red social va dándote gadgets a medida que compartes tus trabajos y participas en la comunidad, una manera de incentivar tu actividad a la vez que te relacionas con otros programadores.
-
-CoderWall, red social para programadores web
-
-### BetterCodes
-Aún en fase beta, Bettercodes es la red social para compartir códigos siempre que sean open source. Aquí encontrarás cantidad de códigos, trucos y recursos para desarrolladores y programadores web. La idea de los creadores del sitio es que la navegación, la búsqueda y todas las herramientas que se brindan sean sencillas de utilizar y todos los miembros de la comunidad puedan colaborar. Conocerás programadores de otros países y quién sabe, a lo mejor te abre las puerta a trabajar en algún proyecto internacional.
-
-Bettercodes, red social para compartir códigos open source para programadores web
-
-### Twango
-No es una red social pero sí un recurso imprescindible para buscar proyectos de desarrollo web y ofertar tus presupuestos. Twango pone en contacto a empresas con programadores web. Si trabajas como desarrollador web freelance o tienes una empresa de diseño web, este es tu sitio
-
-__BENCHMARK COMPARATIVA ENTRE REDES SOCIALES__
-
-|   |Facebook   |  Twiter | Instagram  |Sharing Code   |
-|---|---|---|---|---|
-|  Logeo con usuario y contraseña | x | x | x | x |
-|  Logeo mediante otras redes sociales|   |   | x | x |
-|  Agregar amigos/seguir | x | x | x | x |
-|  Realizar comentarios | x | x | x | x |
-|  Perfil | x | x | x | x |
-|  Subir fotos | x | x | x | x |
-|  Me gusta | x | x | x | x |
-|  Creación de grupos | x | x |   | x |
-|  Subir documentos |   |   |   |  x |
-|  Eliminar comentarios | x | x | x | x |
-|  Editar comentarios | x | x | x | x |
-|  Otros idiomas | x | x | x | x |
-
-__BENCHMARK COMPARATIVA REDES SOCIALES SOLO PARA PROGRAMADORES__
-
-|   |  Sharing code |  Notas Web | Desarrollo Web  | Domestika  | Coder Wall  | Better Codes  |
-|---|---|---|---|---|---|---|
-| Compartir  | x |   |   |   |   |   |
-| Logueo con otras redes sociales  | x |   |   |   |   |   |
-| Subir y descargar recursos   | x | x |   | x |   |   |
-| Realizar, editar y eliminar comentarios  | x |   | x |   | x | x |
-| Reaccióm me gusta | x |   |   |   |   |   |
-| Bolsa de trabajo  |   | x |   | x |   |   |
-| Contador de usuarios  |   | x |   |   |   |   |
-| Cuenta con foros  |   |   | x | x |   |   |
-| Compartir   |   |   |   |   | x | x |
-| Enlazarse con otras comunidades  |   |   |   |   | x |   |
-| Otros idiomas  |   |   |   |   |   |   |
-
 ## Introducción a las redes sociales
 
 “Las Redes son formas de interacción social, definida como un intercambio dinámico entre personas, grupos e instituciones en contextos de complejidad. Un sistema abierto y en construcción permanente que involucra a conjuntos que se identifican en las mismas necesidades y problemáticas y que se organizan para potenciar sus recursos.
@@ -177,6 +106,40 @@ Además, en determinados lugares del mundo, como en el caso de Nueva York, el es
 
 * Hacer un _benchamark_ de las principales redes sociales.
 * Hacer al menos 2 o 3 entrevistas con usuarios.
+
+
+__BENCHMARK COMPARATIVA ENTRE REDES SOCIALES__
+
+|   |Facebook   |  Twiter | Instagram  |Sharing Code   |
+|---|---|---|---|---|
+|  Logeo con usuario y contraseña | x | x | x | x |
+|  Logeo mediante otras redes sociales|   |   | x | x |
+|  Agregar amigos/seguir | x | x | x | x |
+|  Realizar comentarios | x | x | x | x |
+|  Perfil | x | x | x | x |
+|  Subir fotos | x | x | x | x |
+|  Me gusta | x | x | x | x |
+|  Creación de grupos | x | x |   | x |
+|  Subir documentos |   |   |   |  x |
+|  Eliminar comentarios | x | x | x | x |
+|  Editar comentarios | x | x | x | x |
+|  Otros idiomas | x | x | x | x |
+
+__BENCHMARK COMPARATIVA REDES SOCIALES SOLO PARA PROGRAMADORES__
+
+|   |  Sharing code |  Notas Web | Desarrollo Web  | Domestika  | Coder Wall  | Better Codes  |
+|---|---|---|---|---|---|---|
+| Compartir  | x |   |   |   |   |   |
+| Logueo con otras redes sociales  | x |   |   |   |   |   |
+| Subir y descargar recursos   | x | x |   | x |   |   |
+| Realizar, editar y eliminar comentarios  | x |   | x |   | x | x |
+| Reaccióm me gusta | x |   |   |   |   |   |
+| Bolsa de trabajo  |   | x |   | x |   |   |
+| Contador de usuarios  |   | x |   |   |   |   |
+| Cuenta con foros  |   |   | x | x |   |   |
+| Compartir   |   |   |   |   | x | x |
+| Enlazarse con otras comunidades  |   |   |   |   | x |   |
+| Otros idiomas  |   |   |   |   |   |   |
 
 
 #### Prototipo de alta fidelidad.
