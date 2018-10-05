@@ -75,8 +75,6 @@ Tipo de contenido: las fotos son el contenido que más se publica en redes socia
 
  Un 91% de los usuarios accede a las redes sociales a través de su móvil. Comparando el acceso por dispositivos, los españoles prefieren acceder a las redes sociales desde el móvil a partir de las 4 de la tarde, mientras que la tablet es más nocturna y se utiliza más a partir de las 8:30. Facebook, YouTube o Twitter son las redes sociales más utilizadas tanto desde móviles como desde tablets.
 
-![redes](./src/images/redes.png)
-
 
 ### ¿Qué deben hacer las marcas?
 
@@ -99,8 +97,6 @@ El mismo estudio constata que el segundo idioma más hablado es el chino, seguid
 Además, en determinados lugares del mundo, como en el caso de Nueva York, el español, después del inglés, es el idioma más utilizado en la red Twitter.
 
 Además, en determinados lugares del mundo, como en el caso de Nueva York, el español, después del inglés, es el idioma más utilizado en la red Twitter.
-
-![idioma](./src/images/idioma.png)
 
 
 
