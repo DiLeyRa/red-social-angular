@@ -69,5 +69,6 @@ export class ProfileComponent implements OnInit {
   agregarItemEditado(){
     this.conexion.editPublications(this.editarItem);
   }
+
 }
 

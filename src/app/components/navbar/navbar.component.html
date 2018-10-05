@@ -8,10 +8,9 @@
     <a class="nav-item nav-link font-weight-bold" *ngIf="isLogin">
       <img src="{{ photo }}" class="rounded-circle">
     </a>
-    <a class="nav-item nav-link font-weight-bold" href="#">
+    <a class="nav-item nav-link font-weight-bold">
       {{ nameUser }}
     </a>
     <a class="nav-item nav-link font-weight-bold fa fa-sign-out" href="#" *ngIf="isLogin" (click)="onClickLogout()"> Salir</a>
-
   </form>
 </nav>

@@ -23,7 +23,7 @@ export class NavbarComponent implements OnInit {
         this.isLogin = true;
         this.emailUser = auth.email;
         if (!auth.displayName) {
-          this.nameUser = 'Bienvenid@';
+          this.nameUser = 'Usuari@';
         }else{
           this.nameUser = auth.displayName;
         }
