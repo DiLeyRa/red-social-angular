@@ -4,6 +4,6 @@ Se trata de una red social para programadores que permite compartir trabajos y e
 
 ![VISTA](./src/images/vista.PNG)
 
-## Diagrama de Flujo
+## Desarrollado para
 
 Laboratoria
